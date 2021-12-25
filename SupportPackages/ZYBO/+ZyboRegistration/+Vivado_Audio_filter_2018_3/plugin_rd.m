@@ -10,7 +10,7 @@ hRD.ReferenceDesignName = 'Audio System with AXI4 Stream Interface';
 hRD.BoardName = 'ZYBO';
 
 % Tool information
-hRD.SupportedToolVersion = {'2018.3', '2019.1','2019.2','2020.1'};
+hRD.SupportedToolVersion = {'2018.3', '2019.1','2019.2','2020.1','2020.2'};
 
 %% Add custom design files
 % add custom Vivado design

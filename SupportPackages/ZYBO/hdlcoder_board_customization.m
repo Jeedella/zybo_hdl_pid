@@ -6,10 +6,12 @@ function r = hdlcoder_board_customization
 % 3. Board plugin must be a package folder accessible from MATLAB path,
 %    and contains a board definition file
 
-%   Copyright 2015-2017 The MathWorks, Inc.
+%   Copyright 2015-2021 The MathWorks, Inc.
 
 r = { ...
     'ZyboRegistration.plugin_board', ...
+    'ZyboZ710Registration.plugin_board', ...
+    'ZyboZ720Registration.plugin_board', ...
     };
 end
 

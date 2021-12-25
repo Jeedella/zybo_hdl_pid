@@ -74,9 +74,9 @@ end
 
 %add path to the custom board disign, should not be changed
 %addpath(fullfile('.','customboards','ZYBO'))
-addpath(fullfile('.','SupportPackages','ZYBO_Z7_10_2'))
-addpath(fullfile('.','SupportPackages','ZYBO_Z7_10'))
-addpath(fullfile('.','SupportPackages','ZYBO_Z7_20'))
+%addpath(fullfile('.','SupportPackages','ZYBO_Z7_10_2'))
+%addpath(fullfile('.','SupportPackages','ZYBO_Z7_10'))
+%addpath(fullfile('.','SupportPackages','ZYBO_Z7_20'))
 addpath(fullfile('.','SupportPackages','ZYBO'))
 %enable the model property EnableLBRepository. Your library can appear
 %in the browser only if this property is on when you save your library.
@@ -91,3 +91,4 @@ t_fpga = 1/f_pga;                       %fpga clock time period
 oversampleFactor = t_sample / t_fpga;   %factor used in HDL coder, copy this number when using HDL workflow advisor
 %open simulink model
 open_system('gm_Encoder_test')
+open_system('hdlcoder_led_blinking_4bit')
